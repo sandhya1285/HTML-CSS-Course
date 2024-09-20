@@ -6,4 +6,12 @@
 
  https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-01/1b.html
 
+ => Shadow property in CSS:
+ 
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+5px : horizantal (right side shadow)
+5px: vertical shadow
+10px: blur
+rgba(red,blue,green, opacity);
+
  
