@@ -16,4 +16,6 @@ rgba(red,blue,green, opacity);
 
 => CSS Box Model : It represents how much space an element took in a page and how far it is from other elements.
 
+=> Text elements like - Span, Strong and u (underline)
+
  
