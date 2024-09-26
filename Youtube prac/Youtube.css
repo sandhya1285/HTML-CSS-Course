@@ -1,0 +1,42 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Video{
+    width:410px;
+    display: inline-block;
+}
+.Thumbnail-1{
+    width:350px;
+    margin-bottom: 4px;
+}
+.Profile_Picture{
+    display: inline-block;
+    vertical-align: top;
+}
+.Video_Info{
+    display: inline-block;
+    width:280px;
+    margin-left:1px;
+}
+.Channel-Pic{
+   border-radius: 50px;
+   width:50px;
+}
+.Thumbnail-Pic{
+    margin-bottom: 10px;
+}
+.Video_Text{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Author{
+    color:rgb(72, 70, 70);
+    margin-bottom: 4px;
+}
+.Video-Stats{
+    color:rgb(48, 46, 46);
+    font-size: 22px;
+}
