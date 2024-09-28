@@ -23,5 +23,8 @@ rgba(red,blue,green, opacity);
 2) Inline-Block elements: occupies as required for the element
 3) Inline elements
 
+=> CSS Grid:
+Css Grid makes alignment (horizantal and vertical) easier
+
 
  
