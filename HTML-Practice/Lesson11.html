@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Grid1{
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-bottom: 40px;
+        }
+        .Grid2{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-bottom: 40px;
+        }
+        .Grid3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            margin-bottom: 40px;
+        }
+        .Social-Media1{
+            box-shadow: 1px 1px 7px rgb(0,0,0,0.6);
+            padding-bottom: 8px;
+        }
+        .Name{
+            font-weight: bold;
+            margin-top:10px;
+            margin-bottom: 6px;
+            margin-left:2px;
+        }
+        .Friends{
+            color:gray;
+            font-size:14px;
+            margin-top:4px;
+            margin-bottom:4px;
+            margin-left:1px;
+        }
+       
+        .Profile{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .profile-pic{
+            width:40px;
+            height:40px;
+            border-radius: 20px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .Add-Friend{
+            background-color: rgb(51, 67, 214);
+            color:white;
+            border:none;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 4px;
+        }
+        .Cover-pic{
+            width:200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .Social-Media{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        .Profile-Info{
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Grid1">
+        <div style="background-color: lightblue">200px</div>
+        <div style="background-color: lightpink">75px</div>
+    </div>
+    <div class="Grid2">
+        <div style="background-color: lightblue">50px</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightblue">75px</div>
+    </div>
+    <div class="Grid3">
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+        <div style="background-color: lightpink">1fr</div>
+    </div>
+
+    <div class="Social-Media">
+        <div class="Social-Media1">
+            <div>
+                <img class="Cover-pic" src="../Web_Images/WebImage.jpg">
+            </div>
+            <div class="Profile-Info">
+                <p class="Name">Oliver</p>
+                <div class="Profile">
+                    <div>
+                        <img class="profile-pic" src="../Web_Images/pr_picture.jpg">
+                    </div>
+                    <div> 
+                        <p class="Friends">2 mutual friends</p>
+                    </div> 
+                </div>
+                <button class="Add-Friend">Add Friend</button>
+            </div>
+        </div>
+        <div class="Social-Media1">
+            <div>
+                <img class="Cover-pic" src="../Web_Images/WebImage.jpg">
+            </div>
+            <div class="Profile-Info">
+                <p class="Name">Oliver</p>
+                <div class="Profile">
+                    <div>
+                        <img class="profile-pic" src="../Web_Images/pr_picture.jpg">
+                    </div>
+                    <div> 
+                        <p class="Friends">2 mutual friends</p>
+                    </div> 
+                </div>
+                <button class="Add-Friend">Add Friend</button>
+            </div>
+        </div>
+        <div class="Social-Media1">
+            <div>
+                <img class="Cover-pic" src="../Web_Images/WebImage.jpg">
+            </div>
+            <div class="Profile-Info">
+                <p class="Name">Oliver</p>
+                <div class="Profile">
+                    <div>
+                        <img class="profile-pic" src="../Web_Images/pr_picture.jpg">
+                    </div>
+                    <div> 
+                        <p class="Friends">2 mutual friends</p>
+                    </div> 
+                </div>
+                <button class="Add-Friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+</html>
