@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin:0px;
+        }
+        .Flex1{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+        }
+        .Flex2{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+        }
+        .Flex3{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+            justify-content: space-between;
+        }
+        .Flex4{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+            justify-content: space-between;
+            height:50px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: gray;
+            align-items: center;
+        }
+        .Notification-bar{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            p{
+                width: 200px;
+                margin:0px;
+                margin-top:6px;
+                margin-bottom:6px;
+            }
+            button{
+                padding-top: 1px;
+                padding-bottom:1px;
+                padding-right: 8px;
+                padding-left: 8px;
+                border:none;
+                border-radius: 10px;
+                height: 20px;
+                background-color: rgb(41, 83, 189);
+                color: white;
+            }
+            
+        }
+        .Notifications{
+            width: 230px;
+            padding-left: 12px;
+            padding-right:12px;
+            border:none;
+            border-radius: 5px;
+            box-shadow: 0px 1px 3px rgb(0,0,0,0.5);
+            margin-bottom: 40px;
+        }
+        .Profiles{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom:10px;
+            p{
+                margin-left:10px;
+                margin-right:80px;
+                line-height: 18px;
+            }
+           
+        }
+        .Profile-pic{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .Feed{
+            width:200px;
+            margin-bottom:50px;
+        }
+        .Follow{
+            color: white;
+            background-color: rgb(41, 83, 189);
+            border:none;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right:12px;
+            padding-left:12px;
+            border-radius: 4px;
+        }
+        .Info, .Status{
+            color:rgb(155, 147, 147);
+        }
+        .Search-Bar{
+            display: flex;
+            flex-direction: row;
+            height:50px;
+            background-color: rgb(114, 29, 135);
+            margin-bottom: 200px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="Flex1">
+        <div style="background-color: lightblue; width:100px">100px</div>
+        <div style="background-color: lightpink; width:75px">75px</div>
+    </div>
+    <div class="Flex2">
+        <div style="background-color: lightblue; width:100px">100px</div>
+        <div style="background-color: lightpink; flex:1">Flex:1</div>
+        <div style="background-color: lightblue; width:75px">75px</div>
+    </div>
+    <div class="Flex3" style="background-color: yellow;">
+        <div style="background-color: lightblue;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+        <div style="background-color: lightblue;">item3</div>
+        <div style="background-color: lightpink;">item4</div>
+    </div>
+    <div class="Flex4" >
+        <div style="background-color: lightblue;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+    </div>
+    <div class="Notifications">
+        <div class="Notification-bar">
+            <p>Home</p>
+            <button>14</button>
+        </div>
+        <div class="Notification-bar">
+            <p>Notifications</p>
+            <button>3</button>
+        </div>
+        <div class="Notification-bar">
+            <p>Messages</p>
+            <button>5</button>
+        </div>
+    </div>
+    <div class="Feed">
+        <div class="Profiles">
+            <div>
+                <img class="Profile-pic" src="../Web_Images/cat-img.jpg">
+            </div>
+            <div>
+                <p class="Name">Oliver</p>
+                <p class="Info">the Cat</p>
+                <p class="Status">Popular</p>
+            </div>
+            <div>
+                <button class="Follow">Follow</button>
+            </div>
+        </div>
+        <div class="Profiles">
+            <div>
+                <img class="Profile-pic" src="../Web_Images/cat-img.jpg">
+            </div>
+            <div>
+                <p class="Name">Oliver</p>
+                <p class="Info">the Cat</p>
+                <p class="Status">Popular</p>
+            </div>
+            <div>
+                <button class="Follow">Follow</button>
+            </div>
+        </div>
+        <div class="Profiles">
+            <div>
+                <img class="Profile-pic" src="../Web_Images/cat-img.jpg">
+            </div>
+            <div>
+                <p class="Name">Oliver</p>
+                <p class="Info">the Cat</p>
+                <p class="Status">Popular</p>
+            </div>
+            <div>
+                <button class="Follow">Follow</button>
+            </div>
+        </div>
+    </div>
+    <div class="Search-Bar">
+        <div><p style="font-size:18px;">Home</p></div>
+        <div><input style="width:480px; padding-top:6px; padding-bottom: 6px; padding-left:20px; border-radius:25px; border:none;" type="text" placeholder="Search"></div>
+        <div><button style="font-size:18px; border:1px; color:white; background-color: rgb(114, 29, 135); border-color:white; border-style:solid;">Download</button></div>
+    </div>
+</body>
+</html>
