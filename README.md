@@ -27,4 +27,5 @@ rgba(red,blue,green, opacity);
 Css Grid makes alignment (horizantal and vertical) easier
 
 
+
  

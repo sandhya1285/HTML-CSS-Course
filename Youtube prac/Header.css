@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+}
+.Right-Section{
+    width: 170px;
+    background-color: lightblue;
+}
+
+.Middle-Section{
+    flex: 1;
+    background-color: lightpink;
+    margin-left: 180px;
+    margin-right: 140px;
+    max-width: 500px;
+}
+.Left-Section{
+    width: 260px;
+    background-color: lightblue;
+}
