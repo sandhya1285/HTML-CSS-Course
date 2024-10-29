@@ -34,6 +34,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(196, 192, 192);
+    width:0;
 }
 .search-icon{
     height:24px;
@@ -64,9 +65,11 @@
 .Right-Section{
     width: 200px;
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-right:16px;
+    flex-shrink: 0;
 }
 .upload{
     height: 24px;
