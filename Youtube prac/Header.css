@@ -11,6 +11,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(211, 208, 208);
+    z-index: 100;
 }
 .Left-Section{
     width: 130px;
@@ -91,4 +92,19 @@
 .my-channel{
     height: 30px;
     border-radius: 15px;
+}
+.notifications-icon{
+    position:relative;
+}
+.notifications-count{
+    position:absolute;
+    top:-4px;
+    right:-1px;
+    background-color: rgb(206, 50, 50);
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    border-radius: 25px;
+    font-size: 12px;
 }
