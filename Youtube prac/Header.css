@@ -20,7 +20,7 @@
 }
 .hamburger-menu{
     height:24px;
-    margin-left:24px;
+    margin-left:28px;
     margin-right:24px;
 }
 .youtube-logo{
@@ -47,8 +47,43 @@
 }
 .search-icon{
     height:24px;
+}
+.search-icon-container, 
+.voice-search-container,
+.upload-icon,
+.youtube-apps,
+.notifications-icon{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon-container .tooltip,
+.voice-search-container .tooltip,
+.upload-icon .tooltip,
+.youtube-apps .tooltip,
+.notifications-icon .tooltip{
+    position: absolute;
+    opacity:0;
     padding-top:4px;
-
+    padding-bottom: 4px;
+    padding-left:6px;
+    padding-right:6px;
+    background-color: rgb(91, 89, 89);
+    color:white;
+    font-size:16px;
+    border-radius: 2px;
+    bottom:-35px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-icon-container:hover .tooltip,
+.voice-search-container:hover .tooltip,
+.upload-icon:hover .tooltip,
+.youtube-apps:hover .tooltip,
+.notifications-icon:hover .tooltip{
+    opacity:1;
+    transition: opacity 0.15s;
 }
 .search-icon-button{
     height:38px;
