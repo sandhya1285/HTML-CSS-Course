@@ -2,6 +2,7 @@
     display:grid;
     grid-template-columns: 50px 1fr;
     line-height: 24px;
+    cursor: pointer;
 }
 .CSS-Grid{
     display: grid;
@@ -20,6 +21,7 @@
     width:100%;
     margin-bottom: 10px;
     position:relative;
+    cursor: pointer;
 }
 .video-time{
     position:absolute;
