@@ -4,6 +4,7 @@
     line-height: 24px;
     cursor: pointer;
 }
+
 .CSS-Grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,4 +50,9 @@
 .Video_Stats{
     color:rgb(48, 46, 46);
     font-size: 16px;
+}
+@media (max-width: 800px){
+    .CSS-Grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
